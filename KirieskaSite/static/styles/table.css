@@ -1,0 +1,28 @@
+
+  table {
+    border-collapse: collapse; 
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    color: #0C213B;
+    width: 60%;
+    margin: auto;
+  }
+
+  th {
+    padding: 10px; 
+    border: 1px solid #196536;
+    text-align: center;
+    color: #196536;
+  }
+  td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #196536;
+    color: #196536;
+  }
+  .first {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+  }

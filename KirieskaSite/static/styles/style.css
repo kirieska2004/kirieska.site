@@ -1,0 +1,164 @@
+
+body {
+    background: linear-gradient(360deg, #76FB5F 0%, #fff 100%);
+}
+
+.navbar {
+    background-color: #196536;
+}
+.nav-link {
+    color:#00e600;
+
+}
+
+.textstyle {
+    color:#00e600;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.navbar-nav .nav-link.active {
+    color:#fefffe;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.navbar-toggler {
+    background-color: #00e600;
+}
+
+.btn.btn-primary {
+    background-color: #00e600;
+}
+
+.ad img{
+    width: 100%;
+}
+
+footer {
+    background-color: #196536;
+}
+
+.footer-text {
+    color:#00e600;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer-a {
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+
+h1 {
+    color: #196536;
+}
+
+.navbar-nav a:hover {
+    background-color: #858e88;
+}
+
+/* для выпадающего меню*/
+.drop {
+    position:absolute;
+    background-color: #196536;
+    opacity: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+.nav-item.list:hover .drop {
+    opacity: 1;
+}
+
+/*для кнопки вверх*/
+
+.upward {
+    position:fixed;
+    bottom:10px;
+    right:80px;
+    width: 47%;
+    height:30px;
+    background: url(knopkaVverh.png);
+    background-size: cover;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 1000;
+}
+.upward.active{
+    bottom: 40px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.footer-to{
+    width: 40px;
+}
+
+
+.nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+  }
+  
+  .kesednsoled:after,
+  .kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
+  .ico-wrap {
+    color: #196536;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #196536;
+    float: left;
+    border-radius: 30px;
+  }
+  .ico-contact {
+    line-height: 1.9 !important;
+  }
+  .meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+  }
+  .aio-icon-title {
+    font-size: 16px;
+    color: #196536;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  
+  @media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+    float: none;
+    text-align: center;
+    }
+    .ico-wrap {
+    margin: 0 auto 15px auto;
+    }
+  }
